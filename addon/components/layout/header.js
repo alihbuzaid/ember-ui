@@ -247,29 +247,29 @@ export default class LayoutHeaderComponent extends Component {
 
         // Add more static menu items
         const supportMenuItems = [
-            {
-                id: 'discord',
-                href: 'https://discord.gg/MJQgxHwN',
-                target: '_discord',
-                text: 'Join Discord Community',
-                icon: 'arrow-up-right-from-square',
-            },
-            {
-                id: 'support-user-nav-item',
-                wrapperClass: 'support-user-nav-item',
-                href: 'https://github.com/fleetbase/fleetbase/issues',
-                target: '_support',
-                text: 'Help & Support',
-                icon: 'arrow-up-right-from-square',
-            },
-            {
-                id: 'docs-user-nav-item',
-                wrapperClass: 'docs-user-nav-item',
-                href: 'https://docs.fleetbase.io',
-                target: '_docs',
-                text: 'Documentation',
-                icon: 'arrow-up-right-from-square',
-            },
+            // {
+            //     id: 'discord',
+            //     href: 'https://discord.gg/MJQgxHwN',
+            //     target: '_discord',
+            //     text: 'Join Discord Community',
+            //     icon: 'arrow-up-right-from-square',
+            // },
+            // {
+            //     id: 'support-user-nav-item',
+            //     wrapperClass: 'support-user-nav-item',
+            //     href: 'https://github.com/fleetbase/fleetbase/issues',
+            //     target: '_support',
+            //     text: 'Help & Support',
+            //     icon: 'arrow-up-right-from-square',
+            // },
+            // {
+            //     id: 'docs-user-nav-item',
+            //     wrapperClass: 'docs-user-nav-item',
+            //     href: 'https://docs.fleetbase.io',
+            //     target: '_docs',
+            //     text: 'Documentation',
+            //     icon: 'arrow-up-right-from-square',
+            // },
         ];
 
         // Push support menu items
